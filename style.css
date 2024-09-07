@@ -63,11 +63,16 @@ h1 {
 }
 
 .header-text {
-  margin-bottom: 24px;
+  margin-bottom: 42px;
+  line-height: 1.px;
+  font-style: italic;
+  color: #6e6c6c; 
+  
 }
 
 img {
   width: 100%;
+  
 }
 
 /* FEATURES */
@@ -85,6 +90,7 @@ img {
 }
 
 .features-text {
+  color: #6e6c6c;
   
 }
 
@@ -131,7 +137,8 @@ h3 {
 
 .chair-details {
   list-style: none;
-  margin-bottom: 24px;
+  margin-bottom: 42px;
+  color: #6e6c6c;
 }
 
 .chair-details li {
@@ -143,6 +150,7 @@ h3 {
 
 .chair-details li:last-child {
   margin-bottom: 0;
+
 }
 
 .chair-icons{
@@ -154,6 +162,7 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 footer {
@@ -170,4 +179,45 @@ img{
 .chair img{
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+.btn--big{
+  background-color: #087250;
+  padding: 16px;
+  color: white;
+  font-weight: 400px;
+  border-radius: 34px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.179);
+  
+
+}
+.btn--small{background-color: #087250;
+  padding: 8px;
+  color: white;
+  font-weight: 400px;
+  border-radius: 34px;
+  text-decoration: none;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.179);  
+  align-items: center;
+  
+  
+}
+.btn--small:hover{
+  background-color: #9ff1d9;
+  color: black;
+
+}
+.btn--small:active{
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.179);
+  
+}
+.btn--big:hover{
+  background-color: #9ff1d9;
+  color: black;
+}
+.btn--big:active{
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.179);
+  
 }
